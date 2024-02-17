@@ -6,10 +6,10 @@ import { createServer } from 'node:http'
 
 const config = {
   host: 'localhost',
-  port: 5432,
-  database: 'node_chat',
-  user: 'saalcazar',
-  password: 'a1b2c3d4c0'
+  port: ,
+  database: '',
+  user: '',
+  password: ''
 }
 
 const client = new pg.Client(config)
